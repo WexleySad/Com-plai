@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(126, 17, 198);
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
