@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(126, 17, 198);
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: #4CBD49;
+    font-family: 'Righteous', cursive;
+}
+
+.formulario-contato {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+/* Estilos para os rótulos dos campos */
+.formulario-contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #4CBD49;
+    font-family: 'Sarala', sans-serif;
+}
+
+/* Estilos para os campos de entrada de texto e área de texto */
+.formulario-contato .campo-texto {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formulario-contato .campo-textarea {
+    height: 100px; /* Ajuste a altura conforme necessário */
+}
+
+/* Estilos para o botão de envio */
+.formulario-contato .botao-enviar {
+    background-color: #4CBD49;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão de envio quando hover (passar o mouse por cima) */
+.formulario-contato .botao-enviar:hover {
+    background-color: #368E3D;
+}
+
+/* Estilos para o botão "Voltar ao Início" */
+.botao-voltar {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    background-color: #4CBD49;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão "Voltar ao Início" quando hover (passar o mouse por cima) */
+.botao-voltar:hover {
+    background-color: #368E3D;
+}
