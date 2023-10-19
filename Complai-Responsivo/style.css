@@ -240,3 +240,13 @@ body.show {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape-paragrafo {
+    margin-top: 2px;
+    font-family: 'Sarala', sans-serif;
+}
