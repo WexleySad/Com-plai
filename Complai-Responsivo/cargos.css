@@ -114,3 +114,22 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Estilos para o botão "Voltar ao Início" */
+.botao-voltar {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    background-color: #4CBD49;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão "Voltar ao Início" quando hover (passar o mouse por cima) */
+.botao-voltar:hover {
+    background-color: #368E3D;
+}
