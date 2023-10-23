@@ -133,3 +133,9 @@ img {
 .botao-voltar:hover {
     background-color: #368E3D;
 }
+
+@media (max-width: 768px) {
+    .titulo-cargo {
+        font-size: 30px; /* Ajuste o tamanho da fonte para telas menores, se necessário */
+    }
+}
