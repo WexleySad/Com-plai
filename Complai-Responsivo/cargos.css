@@ -50,7 +50,6 @@ body {
 }
 
 .rodape {
-    margin-top: 50px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -87,7 +86,6 @@ body {
 
 .titulo-formacao {
     font-size: 18px;
-    margin-top: 20px;
     color: #4CBD49;
     font-family: 'Righteous', cursive;
 }
