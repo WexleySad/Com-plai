@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@media (max-width: 768px) {
+    .titulo-cargo {
+        font-size: 30px; /* Ajuste o tamanho da fonte para telas menores, se necessário */
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,50 +13,52 @@
     text-decoration: none;
 }
 
-/* Reset de estilos para remover margens e preenchimentos padrão */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
 
-.container {
+.cargo{
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(126, 17, 198);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.imagem {
-    float: left;
-    width: 30%;
+.imagem{
+    display: flex;
+    height: 400px;
     margin-right: 20px;
 }
+.foto{
+    margin-left: 20px;
+}
 
-.texto {
-    margin-left: 30%;
+img{
+    height: auto;
     text-align: center;
 }
 
-.titulo-cargo {
+.texto{
+    background-color: rgb(126, 17, 198);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    text-align: center;
+}
+
+.titulo-cargo{
     font-size: 80px;
-    margin-bottom: 10px;
     color: #4CBD49;
     font-family: 'Righteous', cursive;
 }
 
 .descricao-cargo{
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     font-family: 'Sarala', sans-serif;
 }
 
 .rodape {
-    padding: 20px;
     display: flex;
     justify-content: center;
 }
@@ -59,6 +67,7 @@ body {
     margin: 20px;
     text-align: center;
     color: white;
+    font-family: 'Righteous', cursive;
 }
 
 .rodape-principal:hover {
@@ -78,62 +87,49 @@ body {
     font-family: 'Sarala', sans-serif;
 }
 
-.formacao {
-    clear: both;
+.formacoes {
+    text-align: center; 
+    background-color: rgb(126, 17, 198);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos para os títulos */
-
-.titulo-formacao {
-    font-size: 18px;
+.titulo-formacao{
+    font-size: 40px;
+    margin-top: 20px;
     color: #4CBD49;
     font-family: 'Righteous', cursive;
 }
 
-/* Estilo para a lista de formações */
 .lista-formacao {
-    list-style-type: disc;
-    margin-left: 20px;
-    list-style-type: none;
+    list-style: none; 
+    padding: 20px;
+    display: flex; 
+    justify-content: center;
     color: white;
     font-family: 'Sarala', sans-serif;
 }
 
 .lista-formacao li {
-    margin-bottom: 5px;
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    background-color: rgb(126, 17, 198);
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lista-formacao li i{
     color: #4CBD49;
 }
 
-/* Estilo para a imagem */
-img {
-    max-width: 100%;
-    height: auto;
+.lista-formacao .icone {
+    font-size: 24px; 
+    margin-bottom: 5px;
 }
 
-/* Estilos para o botão "Voltar ao Início" */
-.botao-voltar {
-    display: block;
-    width: 120px;
-    padding: 10px;
-    background-color: #4CBD49;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 20px auto;
-    transition: background-color 0.3s ease;
-}
-
-/* Estilos para o botão "Voltar ao Início" quando hover (passar o mouse por cima) */
-.botao-voltar:hover {
-    background-color: #368E3D;
-}
-
-@media (max-width: 768px) {
-    .titulo-cargo {
-        font-size: 30px; /* Ajuste o tamanho da fonte para telas menores, se necessário */
-    }
+.lista-formacao li:last-child {
+    margin-right: 0; 
 }
