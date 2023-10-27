@@ -18,6 +18,23 @@ body {
     background-color: #f2f2f2;
 }
 
+.interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 .cargo {
     margin: 0 auto;
     padding: 20px;
@@ -135,3 +152,6 @@ img{
 .lista-formacao li:last-child {
     margin-right: 0; 
 }
+
+
+
