@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.servicos {
+    background-color: #7E11C6;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.servicos h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.servico {
+    margin: 30px 0;
+}
+
+.icone-servico {
+    font-size: 50px;
+    background-color: #4CBD49;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servico h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.servico p {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .icone-servico {
+        font-size: 40px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .servico h3 {
+        font-size: 20px;
+    }
+
+    .servico p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para o botão "Voltar ao Início" */
+.botao-voltar {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    background-color: #4CBD49;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para o botão "Voltar ao Início" quando hover (passar o mouse por cima) */
+.botao-voltar:hover {
+    background-color: #368E3D;
+}
