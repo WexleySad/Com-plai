@@ -5,79 +5,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complai Desenvolvedora de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
 
-    <header>
-        <div class="cabecalho">
-            <img class="cabecalho-imagem" src="./img/logo.cabeçalho.2.jpeg" alt="Logo Cabeçalho">
-            <nav class="cabecalho-menu">
-                <a class="cabecalho-menu-item" href="#">Inicio</a>
-                <a class="cabecalho-menu-item" href="servicos.html">Serviços</a>
-                <a class="cabecalho-menu-item" href="cargos.html">Cooperadores</a>
-                <a class="cabecalho-menu-item" href="faleconosco.html">Sobre</a>
+    <header class="cabecalho">
+        <div class="interface">
+            <div class="logo">
+                <a class="logo-link" href="#">
+                    <img class="logo-edit" src="./img/logo.cabeçalho.2.jpeg" alt="Logo Complai">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul class="menu-ul">
+                    <li class="menu-li"><a class="menu-link" href="#">Inicio</a></li>
+                    <li class="menu-li"><a class="menu-link" href="servicos.html">Serviços</a></li>
+                    <li class="menu-li"><a class="menu-link" href="cooperadores.html">Cooperadores</a></li>
+                    <li class="menu-li"><a class="menu-link" href="sobre.html">Sobre</a></li>
+                </ul>
             </nav>
+
             <div class="btn-contato">
-                <a class="btn-contato-link" href="#">
-                    <button class="btn-contato-item">Contato</button>
+                <a class="btn-link" href="#">
+                    <button class="btn-edit">Contato</button>
                 </a>
             </div>
         </div>
     </header>
 
-    <main class="conteudo">
-        <section class="slider">
-            <div class="slide slide-1"></div>
-            <div class="slide slide-2"></div>
-            <div class="slide slide-3"></div>
-        </section>
+    <main class="principal">
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 class="titulo-edit">Complai</h1>
+                        <h2 class="subtitulo-edit">Empresa Desenvolvedora de Software</h2>
+                        <p class="txt-edit">A Complai é uma empresa fictícia criada para
+                            uma feira de administração por estudantes do ensino médio. Fundada em 2017 por João e
+                            Wesley,
+                            começou como suporte técnico. Em 2020, adaptou-se à pandemia e, com o investimento de
+                            Estevan,
+                            direcionou-se para o desenvolvimento de sistemas de IA no setor empresarial.</p>
 
-        <section class="slider-dots">
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-        </section>
-
-        <section class="conteudo-principal">
-            <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo">Complai</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">Empresa Desenvolvedora de Software</h2>
-                <h3 class="conteudo-principal-escrito-subsubtitulo">A Complai é uma empresa fictícia criada para
-                    uma feira de administração por estudantes do ensino médio. Fundada em 2017 por João e Wesley,
-                    começou como suporte técnico. Em 2020, adaptou-se à pandemia e, com o investimento de Estevan,
-                    direcionou-se para o desenvolvimento de sistemas de IA no setor empresarial.</h3>
-            </div>
-            <img class="conteudo-principal-imagem" src="./img/logo.cabeçalho.2.jpeg" alt="Logo Conteudo">
-        </section>
-
-        <section class="conteudo-secundario">
-            <h3 class="conteudo-secundario-titulo">O que nossa empresa oferece?</h3>
-            <div class="servico">
-                <i class="fas fa-code"></i>
-                <p class="conteudo-secundario-paragrafo">Desenvolvimento de Software Personalizado.</p>
-            </div>
-            <div class="servico">
-                <i class="fas fa-brain"></i>
-                <p class="conteudo-secundario-paragrafo">Inteligência Artificial (IA) e soluções baseadas em IA.</p>
-            </div>
-            <div class="servico">
-                <i class="fas fa-laptop"></i>
-                <p class="conteudo-secundario-paragrafo">Consultoria em Tecnologia.</p>
-            </div>
-            <div class="servico">
-                <i class="fas fa-mobile-alt"></i>
-                <p class="conteudo-secundario-paragrafo">Desenvolvimento Web e de Aplicativos Móveis.</p>
-            </div>
-            <div class="servico">
-                <i class="fas fa-shield-alt"></i>
-                <p class="conteudo-secundario-paragrafo">Segurança Cibernética.</p>
+                        <div class="btn-contato">
+                            <a class="btn-link" href="#">
+                                <button class="btn-edit">Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img class="img-edit" src="./img/logo.cabeçalho.2.jpeg" alt="Logo Conteudo">
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo-edit">ESPECIALIDADES</h3>
+                    <div class="flex">
+                        <div class="especialidades-box">
+                            <i class="fas fa-code"></i>
+                            <h3 class="subsubtitulo-edit">Desenvolvimento de Software Personalizado.</p>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <i class="fas fa-brain"></i>
+                            <h3 class="subsubtitulo-edit">Inteligência Artificial (IA) e soluções baseadas em IA.</p>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <i class="fas fa-laptop"></i>
+                            <h3 class="subsubtitulo-edit">Consultoria em Tecnologia.</p>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3 class="subsubtitulo-edit">Desenvolvimento Web e de Aplicativos Móveis.</p>
+                        </div>
+
+                        <div class="fas fa-shield-alt">
+                            <i class="fas fa-code"></i>
+                            <h3 class="subsubtitulo-edit">Segurança Cibernética.</p>
+                        </div>
+                    </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         <section class="conteudo-terceiro">
             <div class="coluna">
                 <h2 class="conteudo-terceiro-titulo">MISSÃO</h2>
