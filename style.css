@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+/* ESTILO GERAIS */
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +16,11 @@ body {
     margin: 0 auto;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.btn-edit{
+.btn-edit {
     color: #5c5c5c;
     padding: 10px 40px;
     font-size: 18px;
@@ -32,205 +32,87 @@ body {
     transition: .3s;
 }
 
-/* Estilos do Cabeçalho */
+.titulo-edit {
+    color: #4CBD49;
+    font-size: 38px;
+    text-align: center;
+}
+
+/* ESTILO DO CABEÇALHO */
 .cabecalho {
     padding: 40px 4px;
     background-color: #5A0E99;
 }
 
-.cabecalho > .interface{
+.cabecalho>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo-edit{
+.logo-edit {
     height: 74px;
 }
 
-.menu-ul{
+.menu-ul {
     list-style-type: none;
 }
 
-.menu-li{
+.menu-li {
     display: inline-block;
     padding: 0 40px;
 }
 
-.menu-link{
+.menu-link {
     color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .3s;
 }
 
-.menu-link:hover{
+.menu-link:hover {
     color: #5c5c5c;
     transform: scale(1.1);
 }
 
-.btn-edit:hover{
+.btn-edit:hover {
     color: #000;
     box-shadow: 0px 0px 8px #00FF08;
     transform: scale(1.1);
 }
 
-/*Estilo do Topo do Site*/
-.topo-do-site{
+/*ESTILO PRINCIPAL*/
+.topo-do-site {
     padding: 40px 4%;
 }
 
-.flex{
+.flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.titulo-edit{
+.titulo-principal-edit {
     color: #4CBD49;
     font-size: 42px;
     line-height: 40px;
 }
 
-.subtitulo-edit{
+.subtitulo-principal-edit {
     color: #4CBD49;
     font-size: 30px;
 }
 
-.txt-edit{
+.txt-principal-edit {
     color: #fff;
     margin: 40px 0;
 }
 
-.img-edit{
+.img-edit {
     border-radius: 50%;
     height: 400px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-}
-
-@keyframes flutuar {
-    0% {
-        top: 0;
-    }
-
-    100%{
-        top: 30px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estilos do slider */
-.slider {
-    margin-top: 120px;
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}
-
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    background-size: cover;
-    background-position: center;
-}
-
-.slide-1 {
-    background-image: url(./img/img-slider-1.jpg);
-}
-
-.slide-2 {
-    background-image: url(./img/img-slider-2.jpg);
-}
-
-.slide-3 {
-    background-image: url(./img/img-slider-3.jpg);
-}
-
-.slider-dots {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.dot {
-    width: 10px;
-    height: 10px;
-    background-color: #ccc;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.active-dot {
-    background-color: #4CBD49;
-}
-
-/* Estilos do conteúdo principal */
-.conteudo-principal {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.conteudo-principal-escrito {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 64px;
-    color: #4CBD49;
-}
-
-.conteudo-principal-escrito-subtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: white;
-}
-
-.conteudo-principal-escrito-subsubtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: white;
-}
-
-.conteudo-principal-imagem {
-    height: 400px;
-    border-radius: 50%;
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-    margin-right: 200px;
 }
 
 @keyframes flutuar {
@@ -243,43 +125,52 @@ body {
     }
 }
 
-/* Estilos do conteúdo secundário */
-.conteudo-secundario {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
+/* ESTILO DAS ESPECIALIDADES */
+
+.especialidades {
+    padding: 40px 4%;
 }
 
-.conteudo-secundario-titulo {
-    padding-top: 48px;
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    color: #4CBD49;
-    margin-bottom: 16px;
+.flex {
+    gap: 60px;
 }
 
-.servico {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+.especialidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .3s;
 }
 
-.servico i {
-    font-size: 24px;
-    margin-right: 10px;
+.especialidades-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px #fff;
+}
+
+.especialidades-box i {
+    font-size: 70px;
     color: #4CBD49;
 }
 
-.conteudo-secundario-paragrafo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: white;
-    margin: 0;
+.subtitulo-edit {
+    font-size: 28px;
+    margin: 15px 0;
 }
+
+.flex-2 {
+    gap: 60px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Estilos do conteúdo terceiro */
 .conteudo-terceiro {
