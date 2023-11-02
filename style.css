@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.fixed {
+    max-width: 1280px;
+    margin: auto;
+}
+
 .flex {
     display: flex;
 }
@@ -93,6 +98,10 @@ body {
 }
 
 /* ESTILO MENU MOBILE */
+.btn-abrir-menu {
+    display: none;
+}
+
 .btn-abrir-menu i {
     color: #00FF08;
     font-size: 40px;
@@ -386,6 +395,10 @@ footer .line-footer i {
     .titulo-edit {
         font-size: 34px;
         line-height: 30px;
+    }
+
+    .btn-abrir-menu {
+        display: block;
     }
 
     /* CABEÇALHO */
