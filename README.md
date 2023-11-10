@@ -6,4 +6,4 @@ trabalho chamado "Semana de ADM" aonde criamos nossa empresa e apresentamos ela 
 -Todo esse meu projeto estou criando com o auxilio do canal do Yotube Inteliogia (Link Direto: https://youtube.com/@InteliogiaDev?si=wvdcDQasUtdz0PzU).
 Todo conteudo que esta nesse canal ajudou a me desenvolver como desenvolvedor web e tambem estou aprendendo a como desenvolver realmente.
 
-Obs: Este e meu primeuro projeto estou fazendo totalmente sozinho e estou pegando o maximo de conteudo da internet por ser meu primeiro projeto eu mesmo nao espero maravilhas dele mais o que importa e o aprendizado. 
+Obs: Este e meu primeiro projeto estou fazendo totalmente sozinho e estou pegando o maximo de conteudo da internet por ser meu primeiro projeto eu mesmo nao espero maravilhas dele mais o que importa e o aprendizado. 
