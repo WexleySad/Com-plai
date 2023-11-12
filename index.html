@@ -191,9 +191,12 @@
                 <form class="form" method="post" action="envia.php">
                     <h2 class="titulo-edit">FALA CONOSCO</h2>
                     <p class="form-text">Preencha o formulário abaixo e entraremos em contato com você</p>
-                    <input class="input-edit" type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
-                    <input class="input-edit" type="text" name="email" id="email" placeholder="Seu e-mail:" required>
-                    <input class="input-edit" type="text" name="telefone" id="telefone" placeholder="Seu celular:">
+                    <input class="input-edit" type="text" name="nome" id="nome" required autocomplete="off">
+                    <label for="nome">Seu Nome Completo</label>
+                    <input class="input-edit" type="text" name="email" id="email" required autocomplete="off">
+                    <label for="email">Seu E-mail</label>
+                    <input class="input-edit" type="text" name="telefone" id="telefone"required autocomplete="off">
+                    <label for="telefone">Seu telefone</label>
                     <div class="btn-enviar"><input class="input-btn" type="submit" value="ENVIAR"></div>
                 </form>
             </div>
