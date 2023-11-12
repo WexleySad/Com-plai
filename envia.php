@@ -4,8 +4,8 @@
     $email = addslashes($_POST['email']);
     $telefone = addslashes($_POST['telefone']);
 
-    $para = "wexleydepaula@gmail.com";
-    $assunto = "Complai - Fale Conosco";
+    $para = "intelioteste@gmail.com";
+    $assunto = "Coleta de dados - Inteliogia";
 
     $corpo = "Nome: ".$nome."\n"."E-mail: ".$email."\n"."Telefone: ".$telefone;
 

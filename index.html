@@ -186,20 +186,26 @@
             </div>
         </section>
 
-        <section class="formulario">
-            <div class="interface">
-                <form class="form" method="post" action="envia.php">
-                    <h2 class="titulo-edit">FALA CONOSCO</h2>
-                    <p class="form-text">Preencha o formulário abaixo e entraremos em contato com você</p>
-                    <input class="input-edit" type="text" name="nome" id="nome" required autocomplete="off">
-                    <label for="nome">Seu Nome Completo</label>
-                    <input class="input-edit" type="text" name="email" id="email" required autocomplete="off">
-                    <label for="email">Seu E-mail</label>
-                    <input class="input-edit" type="text" name="telefone" id="telefone"required autocomplete="off">
-                    <label for="telefone">Seu telefone</label>
-                    <div class="btn-enviar"><input class="input-btn" type="submit" value="ENVIAR"></div>
+        <section class="form-container">
+            <div class="container">
+                <form method="post" action="envia.php">
+                    <h1>Entre em contato</h1>
+                    <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                    <div class="input-single">
+                        <input class="input" type="text" id="nome" name="nome" required autocomplete="off">
+                        <label for="nome">Seu nome completo</label>
+                    </div>
+                    <div class="input-single">
+                        <input class="input" type="text" id="email" name="email" required autocomplete="off">
+                        <label for="email">Seu e-mail</label>
+                    </div>
+                    <div class="input-single">
+                        <input class="input" type="text" id="telefone" name="telefone" required autocomplete="off">
+                        <label for="telefone">Seu telefone</label>
+                    </div>
+                    <div class="btn"><input type="submit" value="Enviar"></div>
                 </form>
-            </div>
+            </div><!--container-->
         </section>
 
     </main>
