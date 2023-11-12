@@ -29,7 +29,7 @@
             </div>
             <nav class="menu-desktop">
                 <ul class="menu-ul">
-                    <li class="menu-li"><a class="menu-link" href="#">Inicio</a></li>
+                    <li class="menu-li"><a class="menu-link" href="index.html">Inicio</a></li>
                     <li class="menu-li"><a class="menu-link" href="servicos.html">Serviços</a></li>
                     <li class="menu-li"><a class="menu-link" href="cooperadores.html">Cooperadores</a></li>
                     <li class="menu-li"><a class="menu-link" href="sobre.html">Sobre</a></li>
@@ -53,7 +53,7 @@
 
                 <nav class="menu-mobile-nav">
                     <ul class="menu-mobile-ul">
-                        <li class="menu-mobile-li"><a class="menu-mobile-link" href="#">Início</a></li>
+                        <li class="menu-mobile-li"><a class="menu-mobile-link" href="index.html">Início</a></li>
                         <li class="menu-mobile-li"><a class="menu-mobile-link" href="servicos.html">Serviços</a></li>
                         <li class="menu-mobile-li"><a class="menu-mobile-link" href="cooperadores.html">Cooperadores</a>
                         </li>
@@ -64,7 +64,6 @@
                 <div class="menu-mobile-img">
                     <img class="menu-mobile-img-edit" src="./img/Logo-Rodape-2.png" alt="Logo Complai">
                 </div>
-
             </div>
             <div class="overlay-menu" id="overlay-menu"></div>
         </div>
@@ -186,26 +185,17 @@
             </div>
         </section>
 
-        <section class="form-container">
-            <div class="container">
-                <form method="post" action="envia.php">
-                    <h1>Entre em contato</h1>
-                    <p>Preencha o formulário abaixo e entraremos em contato com você</p>
-                    <div class="input-single">
-                        <input class="input" type="text" id="nome" name="nome" required autocomplete="off">
-                        <label for="nome">Seu nome completo</label>
-                    </div>
-                    <div class="input-single">
-                        <input class="input" type="text" id="email" name="email" required autocomplete="off">
-                        <label for="email">Seu e-mail</label>
-                    </div>
-                    <div class="input-single">
-                        <input class="input" type="text" id="telefone" name="telefone" required autocomplete="off">
-                        <label for="telefone">Seu telefone</label>
-                    </div>
-                    <div class="btn"><input type="submit" value="Enviar"></div>
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo-edit">Fale Conosco</h2>
+                <form class="form" action="confirmacao.html">
+                    <input class="input-edit" type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input class="input-edit" type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input class="input-edit" type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea class="textarea" name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input class="input-btn" type="submit" value="ENVIAR"></div>
                 </form>
-            </div><!--container-->
+            </div>
         </section>
 
     </main>
