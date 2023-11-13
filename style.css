@@ -1,3 +1,4 @@
+/* ESTILO INDEX.HTML */
 /* ESTILO GERAIS */
 * {
     margin: 0;
@@ -221,7 +222,7 @@ body {
     padding: 40px 4%;
 }
 
-.flex {
+.especialidades .flex {
     gap: 60px;
 }
 
@@ -248,52 +249,23 @@ body {
     margin: 15px 0;
 }
 
-/* ESTILO ORIENTAÇAO */
-
-.orientacao-estrategica {
+/* ESTILO PORTIFOLIO */
+.portifolio{
     padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3b;
 }
 
-.flex {
-    align-items: center;
-    gap: 60px;
-    margin-top: 50px;
+section.portifolio .flex{
+    justify-content: space-around;
 }
 
-.img-orientacao-edit {
-    height: 250px;
-    border-radius: 50%;
-}
-
-.txt-orientacao {
-    color: #fff;
-    padding: 40px;
-    border-radius: 20px;
-    margin-top: 45px;
-    transition: .3s;
-}
-
-.txt-orientacao:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 8px #fff;
-}
-
-.subtitulo-orientacao {
-    color: #4CBD49;
-    font-size: 50px;
-    line-height: 40px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.texto-orientacao {
-    color: #fff;
-    margin: 20px 0;
-    text-align: justify;
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #4CBD49;
 }
 
 /* ESTILO FORMULARIO */
-
 .formulario {
     padding: 80px 4%;
 }
@@ -347,8 +319,6 @@ body {
 }
 
 /* ESTILOS RODAPE */
-
-
 .rodape {
     background-color: #5A0E99;
     padding: 40px 4%;
@@ -392,7 +362,7 @@ footer .line-footer i {
     color: #fff;
 }
 
-/* ESTILO CONFIRMACAO */
+/* ESTILO CONFIRMACAO.HTML */
 .center {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -410,6 +380,69 @@ footer .line-footer i {
     text-align: center;
 }
 
+/* ESTILO COOPERADORES.HTML */
+
+/* ESTILO SERVIÇOS.HTML */
+/* ESTILO PRINCIPAL */
+.chatbot{
+    padding: 40px 4%;
+}
+
+.chatbot-img{
+    text-align: center;
+}
+
+.chatbot-img-edit{
+    height: 500px;
+    border-radius: 50%;
+}
+
+/* ESTILO SOBRE.HTML */
+/* ESTILO ORIENTAÇAO */
+
+.orientacao-estrategica {
+    padding: 80px 4%;
+}
+
+.flex {
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.img-orientacao-edit {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.txt-orientacao {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .3s;
+}
+
+.txt-orientacao:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px #fff;
+}
+
+.subtitulo-orientacao {
+    color: #4CBD49;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.texto-orientacao {
+    color: #fff;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* RESPONSIVO */
 @media screen and (max-width: 1080px) {
 
     /* CLASSES GERAIS */
