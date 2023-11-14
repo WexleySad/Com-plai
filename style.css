@@ -250,19 +250,53 @@ body {
 }
 
 /* ESTILO PORTIFOLIO */
-.portifolio{
+.portifolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff3b;
 }
 
-section.portifolio .flex{
+section.portifolio .flex {
     justify-content: space-around;
+    margin-top: 60px;
 }
 
-.img-port{
+.img-port {
     width: 360px;
     height: 460px;
     background-color: #4CBD49;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b8;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
 }
 
 /* ESTILO FORMULARIO */
@@ -384,15 +418,15 @@ footer .line-footer i {
 
 /* ESTILO SERVIÇOS.HTML */
 /* ESTILO PRINCIPAL */
-.chatbot{
+.chatbot {
     padding: 40px 4%;
 }
 
-.chatbot-img{
+.chatbot-img {
     text-align: center;
 }
 
-.chatbot-img-edit{
+.chatbot-img-edit {
     height: 500px;
     border-radius: 50%;
 }
