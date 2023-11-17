@@ -27,7 +27,7 @@ body {
 }
 
 .btn-edit {
-    color: #5c5c5c;
+    color: #000;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -93,7 +93,7 @@ body {
 }
 
 .btn-edit:hover {
-    color: #000;
+    color: #fff;
     box-shadow: 0px 0px 8px #00FF08;
     transform: scale(1.1);
 }
