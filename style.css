@@ -26,6 +26,10 @@ body {
     display: flex;
 }
 
+.efeito-txt-topo, .efeito-img-topo{
+    visibility: hidden;
+}
+
 .btn-edit {
     color: #000;
     padding: 10px 40px;
@@ -418,24 +422,50 @@ footer .line-footer i {
 
 /* ESTILO SERVIÇOS.HTML */
 /* ESTILO PRINCIPAL */
-.chatbot {
+.servico {
     padding: 40px 4%;
-}
-
-.chatbot-img {
     text-align: center;
 }
 
-.chatbot-img-edit {
-    height: 500px;
-    border-radius: 50%;
+.servico i {
+    font-size: 70px;
+    color: #4CBD49;
+}
+
+.subtitulo-edit {
+    font-size: 28px;
+    margin: 15px 0;
+    color: #4CBD49;
+}
+
+.txt-edit {
+    color: #fff;
+    margin: 20px 0;
 }
 
 /* ESTILO SOBRE.HTML */
-/* ESTILO ORIENTAÇAO */
+/* ESTILO HISTORIA */
+.historia-txt-edit {
+    color: #fff;
+}
 
+.historia-img-edit {
+    border-radius: 10%;
+}
+
+.img-topo-site {
+    border-radius: 50%;
+    height: 350px;
+    position: relative;
+}
+
+/* ESTILO ORIENTAÇAO */
 .orientacao-estrategica {
     padding: 80px 4%;
+}
+
+.orientacao-estrategica-titulo {
+    margin-top: 100px;
 }
 
 .flex {
@@ -444,12 +474,18 @@ footer .line-footer i {
     margin-top: 50px;
 }
 
+.orientacao-img-txt {
+    text-align: center;
+}
+
 .img-orientacao-edit {
-    height: 250px;
-    border-radius: 50%;
+    margin-top: 50px;
+    height: 220px;
+    border-radius: 100%;
 }
 
 .txt-orientacao {
+    margin-right: 30px;
     color: #fff;
     padding: 40px;
     border-radius: 20px;
@@ -473,10 +509,19 @@ footer .line-footer i {
 .texto-orientacao {
     color: #fff;
     margin: 20px 0;
-    text-align: justify;
+    text-align: center;
 }
 
 /* RESPONSIVO */
+
+@media screen and (min-width: 769px) {
+
+    /* CABEÇALHO */
+    .menu-mobile-title {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1080px) {
 
     /* CLASSES GERAIS */
@@ -501,6 +546,12 @@ footer .line-footer i {
     .menu-desktop,
     .btn-contato {
         display: none;
+    }
+
+    .menu-mobile-title {
+        color: #4CBD49;
+        font-size: 24px;
+        margin-top: 15px;
     }
 
     /* TOPO DO SITE */
@@ -562,5 +613,22 @@ footer .line-footer i {
     /* CONFIRMACAO */
     .confirm-img-edit {
         margin-top: 130px;
+    }
+
+    /* SERVIÇOS */
+    .servico {
+        padding: 40px 8%;
+    }
+
+    .servico i {
+        font-size: 60px;
+    }
+
+    .subtitulo-edit {
+        font-size: 24px;
+    }
+
+    .txt-edit {
+        font-size: 16px;
     }
 }
