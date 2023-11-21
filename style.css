@@ -425,6 +425,10 @@ footer .line-footer i {
     color: #fff;
 }
 
+.rodape-parceria-img-edit{
+    height: 100px;
+}
+
 /* ESTILO CONFIRMACAO.HTML */
 .center {
     margin-top: 50px;
@@ -468,9 +472,10 @@ footer .line-footer i {
 }
 
 /* ESTILO SOBRE.HTML */
-/* ESTILO HISTORIA */
+/* ESTILO TOPO DO SITE 1 */
 .principal-img-edit {
     border-radius: 10%;
+    height: 350px;
 }
 
 .img-topo-site {
@@ -530,7 +535,6 @@ footer .line-footer i {
     margin: 20px 0;
     text-align: center;
 }
-
 
 /* ESTILO COOPERADORES.HTML */
 
@@ -665,8 +669,8 @@ footer .line-footer i {
 
 
     /* SOBRE.HTML */
-    .historia-img-edit {
+    .principal-img-edit {
         max-width: 100%;
-        height: 350px;
+        height: 265px;
     }
 }
