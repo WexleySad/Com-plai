@@ -3,13 +3,13 @@ window.revelar = ScrollReveal({ reset: true })
 // TOPO DO SITE
 revelar.reveal('.efeito-txt-topo',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px'
     })
 
 revelar.reveal('.efeito-img-topo',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500
     })
@@ -17,7 +17,7 @@ revelar.reveal('.efeito-img-topo',
 // OS TITULOS DA SESSOES
 revelar.reveal('.titulo-edit',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500
     })
@@ -25,42 +25,42 @@ revelar.reveal('.titulo-edit',
 //SESSAO DE ESPECIALIDADES
 revelar.reveal('.efeito-especialidades1',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500
     })
 
 revelar.reveal('.efeito-especialidades2',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 1000
     })
 
 revelar.reveal('.efeito-especialidades3',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 1500
     })
 
 revelar.reveal('.efeito-especialidades4',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 2000
     })
 
 revelar.reveal('.efeito-especialidades5',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 2500
     })
 
 revelar.reveal('.efeito-especialidades6',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 3000
     })
@@ -68,7 +68,7 @@ revelar.reveal('.efeito-especialidades6',
 //EFEITO PORTIFOLIO
 revelar.reveal('.efeito-portifolio1',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'bottom'
@@ -76,7 +76,7 @@ revelar.reveal('.efeito-portifolio1',
 
 revelar.reveal('.efeito-portifolio2',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'top'
@@ -84,7 +84,7 @@ revelar.reveal('.efeito-portifolio2',
 
 revelar.reveal('.efeito-portifolio3',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'bottom'
@@ -93,7 +93,7 @@ revelar.reveal('.efeito-portifolio3',
 // EFEITO FORMULARIO
 revelar.reveal('.efeito-formulario1',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'left'
@@ -101,7 +101,7 @@ revelar.reveal('.efeito-formulario1',
 
 revelar.reveal('.efeito-formulario2',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'right'
@@ -109,7 +109,7 @@ revelar.reveal('.efeito-formulario2',
 
 revelar.reveal('.efeito-formulario3',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'left'
@@ -117,7 +117,7 @@ revelar.reveal('.efeito-formulario3',
 
 revelar.reveal('.efeito-formulario4',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'right'
@@ -125,7 +125,7 @@ revelar.reveal('.efeito-formulario4',
 
 revelar.reveal('.efeito-formulario-btn',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500
     })
@@ -141,7 +141,7 @@ revelar.reveal('.efeito-formulario-btn',
 //EFEITO HISTORIA
 revelar.reveal('.efeito-historia-txt',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'left'
@@ -149,7 +149,7 @@ revelar.reveal('.efeito-historia-txt',
 
 revelar.reveal('.efeito-historia-img',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'right'
@@ -158,7 +158,7 @@ revelar.reveal('.efeito-historia-img',
 //EFEITO ORIENTACAO
 revelar.reveal('.efeito-orientacao1',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'left'
@@ -166,7 +166,7 @@ revelar.reveal('.efeito-orientacao1',
 
 revelar.reveal('.efeito-orientacao2',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 1000,
         origin: 'left'
@@ -174,7 +174,7 @@ revelar.reveal('.efeito-orientacao2',
 
 revelar.reveal('.efeito-orientacao3',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 1500,
         origin: 'left'
@@ -182,7 +182,7 @@ revelar.reveal('.efeito-orientacao3',
 
 revelar.reveal('.efeito-orientacao-txt1',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 500,
         origin: 'right'
@@ -190,7 +190,7 @@ revelar.reveal('.efeito-orientacao-txt1',
 
 revelar.reveal('.efeito-orientacao-txt2',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 1000,
         origin: 'right'
@@ -198,7 +198,7 @@ revelar.reveal('.efeito-orientacao-txt2',
 
 revelar.reveal('.efeito-orientacao-txt3',
     {
-        duration: 2000,
+        duration: 1000,
         distance: '90px',
         delay: 1500,
         origin: 'right'

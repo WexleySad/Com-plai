@@ -1,5 +1,5 @@
 /* ESTILO GERAIS */
-.ico{
+.ico {
     border-radius: 50%;
 }
 
@@ -425,7 +425,7 @@ footer .line-footer i {
     color: #fff;
 }
 
-.rodape-parceria-img-edit{
+.rodape-parceria-img-edit {
     height: 100px;
 }
 
@@ -450,29 +450,51 @@ footer .line-footer i {
 
 /* ESTILO SERVIÇOS.HTML */
 /* ESTILO PRINCIPAL */
-.servico {
-    padding: 40px 4%;
-    text-align: center;
-}
-
-.servico i {
-    font-size: 70px;
-    color: #4CBD49;
-}
-
-.subtitulo-edit {
-    font-size: 28px;
-    margin: 15px 0;
-    color: #4CBD49;
-}
-
-.txt-edit {
+.servicos {
+    padding: 80px 4%;
+    background-color: #8617CF;
     color: #fff;
-    margin: 20px 0;
+}
+
+.servico {
+    margin-bottom: 60px;
+}
+
+.servico-conteudo {
+    flex: 1;
+}
+
+.subtitulo-servico {
+    color: #4CBD49;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.descricao-servico {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.caracteristicas-servico {
+    list-style-type: none;
+    padding-left: 0;
+    color: #fff;
+}
+
+.caracteristicas-servico li {
+    margin-bottom: 8px;
+}
+
+.imagem-servico img {
+    height: 300px;
+    width: 100%;
+    border-radius: 50%;
 }
 
 /* ESTILO SOBRE.HTML */
-/* ESTILO TOPO DO SITE 1 */
+/* ESTILO TOPO DO SITE */
 .principal-img-edit {
     border-radius: 10%;
     height: 350px;
@@ -551,7 +573,7 @@ footer .line-footer i {
 @media screen and (max-width: 1080px) {
 
     /* CLASSES GERAIS */
-    *{
+    * {
         max-width: 100%;
     }
 
