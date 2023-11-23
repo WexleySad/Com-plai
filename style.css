@@ -1,3 +1,4 @@
+/* INDEX.HTML */
 /* ESTILO GERAIS */
 .ico {
     border-radius: 50%;
@@ -30,6 +31,7 @@ body {
     display: flex;
 }
 
+/* INDEX.HTML */
 .efeito-txt-topo,
 .efeito-img-topo,
 .titulo-edit,
@@ -48,6 +50,13 @@ body {
 .efeito-formulario4,
 .efeito-formulario-btn,
 
+/* SERVICOS.HTML */
+.efeito-txt-servicos,
+.efeito-imf-servicos,
+
+/* COOPERADORES.HTML */
+
+/* SOBRE.HTML */
 .efeito-historia-txt,
 .efeito-historia-img,
 .efeito-orientacao1,
@@ -429,23 +438,6 @@ footer .line-footer i {
     height: 100px;
 }
 
-/* ESTILO CONFIRMACAO.HTML */
-.center {
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.confirmation-icon {
-    color: #4CAF50;
-    font-size: 100px;
-    text-align: center;
-}
-
-.text-edit {
-    color: #fff;
-    margin: 20px 0;
-    text-align: center;
-}
 
 
 /* ESTILO SERVIÇOS.HTML */
@@ -456,42 +448,15 @@ footer .line-footer i {
     color: #fff;
 }
 
-.servico {
-    margin-bottom: 60px;
-}
-
-.servico-conteudo {
-    flex: 1;
-}
-
-.subtitulo-servico {
-    color: #4CBD49;
-    font-size: 32px;
-    margin-bottom: 15px;
-}
-
-.descricao-servico {
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.caracteristicas-servico {
-    list-style-type: none;
-    padding-left: 0;
-    color: #fff;
-}
-
-.caracteristicas-servico li {
-    margin-bottom: 8px;
-}
-
-.imagem-servico img {
-    height: 300px;
+.img-servico-edit {
+    height: 350px;
     width: 100%;
     border-radius: 50%;
 }
+
+
+/* ESTILO COOPERADORES.HTML */
+
 
 /* ESTILO SOBRE.HTML */
 /* ESTILO TOPO DO SITE */
@@ -558,7 +523,24 @@ footer .line-footer i {
     text-align: center;
 }
 
-/* ESTILO COOPERADORES.HTML */
+
+/* ESTILO CONFIRMACAO.HTML */
+.center {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.confirmation-icon {
+    color: #4CAF50;
+    font-size: 100px;
+    text-align: center;
+}
+
+.txt-edit {
+    color: #fff;
+    margin: 20px 0;
+    text-align: justify;
+}
 
 
 /* RESPONSIVO */

@@ -132,7 +132,22 @@ revelar.reveal('.efeito-formulario-btn',
 
 
 //SERVIÇOS.HTML
+//TOPO DO SITE
+revelar.reveal('.efeito-txt-servicos',
+    {
+        duration: 1000,
+        distance: '90px',
+        delay: 500,
+        origin: 'left'
+    })
 
+revelar.reveal('.efeito-img-servicos',
+    {
+        duration: 1000,
+        distance: '90px',
+        delay: 500,
+        origin: 'right'
+    })
 
 //COOPERADORES.HTML
 
