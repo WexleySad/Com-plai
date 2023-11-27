@@ -16,7 +16,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <script src="slider.js" defer></script>
+    <script src="swiper.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="menu.js" defer></script>
 </head>
 
@@ -73,13 +75,38 @@
     </header>
 
     <main class="principal">
-        <section>
+        <section id="cooperadores" class="topo-do-site">
             <div class="interface">
-                <div class="flex">
-
+                <h1>Cooperadores</h1>
+    
+                <!-- Slider Swiper.js -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="caminho_da_imagem_slide_1.jpg" alt="Slide 1">
+                            <div class="conteudo-slide">
+                                <h2>Cooperador 1</h2>
+                                <p>Conteúdo do Cooperador 1...</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="caminho_da_imagem_slide_2.jpg" alt="Slide 2">
+                            <div class="conteudo-slide">
+                                <h2>Cooperador 2</h2>
+                                <p>Conteúdo do Cooperador 2...</p>
+                            </div>
+                        </div>
+                        <!-- Adicione mais slides conforme necessário -->
+                    </div>
+                    <!-- Adicione a barra de navegação do swiper se necessário -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Adicione a navegação do swiper se necessário -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
+    
     </main>
 
     <footer class="rodape">

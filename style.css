@@ -450,7 +450,30 @@ footer .line-footer i {
 }
 
 /* ESTILO COOPERADORES.HTML */
+.swiper-container {
+    width: 80%;
+    margin: 20px auto;
+}
 
+.swiper-slide {
+    text-align: center;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide.swiper-slide-next,
+.swiper-slide.swiper-slide-prev {
+    transform: scale(0.8);  /* Ajuste o fator de escala conforme necessário */
+    opacity: 0.8;  /* Ajuste a opacidade conforme necessário */
+}
+
+.conteudo-slide {
+    margin: 20px;
+}
 
 /* ESTILO SOBRE.HTML */
 /* ESTILO TOPO DO SITE */
