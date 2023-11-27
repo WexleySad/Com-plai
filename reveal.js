@@ -34,35 +34,35 @@ revelar.reveal('.efeito-especialidades2',
     {
         duration: 1000,
         distance: '90px',
-        delay: 1000
+        delay: 500
     })
 
 revelar.reveal('.efeito-especialidades3',
     {
         duration: 1000,
         distance: '90px',
-        delay: 1500
+        delay: 500
     })
 
 revelar.reveal('.efeito-especialidades4',
     {
         duration: 1000,
         distance: '90px',
-        delay: 2000
+        delay: 500
     })
 
 revelar.reveal('.efeito-especialidades5',
     {
         duration: 1000,
         distance: '90px',
-        delay: 2500
+        delay: 500
     })
 
 revelar.reveal('.efeito-especialidades6',
     {
         duration: 1000,
         distance: '90px',
-        delay: 3000
+        delay: 500
     })
 
 //EFEITO PORTIFOLIO
@@ -183,7 +183,7 @@ revelar.reveal('.efeito-orientacao2',
     {
         duration: 1000,
         distance: '90px',
-        delay: 1000,
+        delay: 500,
         origin: 'left'
     })
 
@@ -191,7 +191,7 @@ revelar.reveal('.efeito-orientacao3',
     {
         duration: 1000,
         distance: '90px',
-        delay: 1500,
+        delay: 500,
         origin: 'left'
     })
 
@@ -207,7 +207,7 @@ revelar.reveal('.efeito-orientacao-txt2',
     {
         duration: 1000,
         distance: '90px',
-        delay: 1000,
+        delay: 500,
         origin: 'right'
     })
 
@@ -215,7 +215,7 @@ revelar.reveal('.efeito-orientacao-txt3',
     {
         duration: 1000,
         distance: '90px',
-        delay: 1500,
+        delay: 500,
         origin: 'right'
     })
 
