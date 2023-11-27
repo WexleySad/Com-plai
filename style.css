@@ -660,12 +660,12 @@ footer .line-footer i {
 
     /* SOBRE.HTML */
     .principal-img-edit {
-        height: 200px;
+        height: auto;
     }
 
     .img-topo-site {
-        border-radius: 50%;
-        height: 165px;
+        border-radius: 10%;
+        height: auto;
         position: relative;
     }
 }
