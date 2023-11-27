@@ -595,7 +595,7 @@ footer .line-footer i {
     .img-edit {
         max-width: 100%;
         border-radius: 50%;
-        height: 165px;
+        height: 300px;
         position: relative;
         animation: flutuar 2s ease-in-out infinite alternate;
     }
