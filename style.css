@@ -457,6 +457,41 @@ footer .line-footer i {
 }
 
 
+/* COOPERADORES.HTML */
+.cooperadores {
+    padding: 60px 4%;
+}
+
+.cooperadores .flex {
+    gap: 60px;
+}
+
+.cooperadores-box {
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .3s;
+}
+
+.cooperadores-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px #fff;
+}
+
+.cooperadores-subtitulo-edit{
+    font-size: 28px;
+    color: #4CBD49;
+    margin: 15px 0;
+}
+
+.cooperadores-txt-edit{
+    color: #fff;
+    margin: 40px 0;  
+}
+
+
 /* ESTILO SOBRE.HTML */
 /* ESTILO TOPO DO SITE */
 .principal-img-edit {

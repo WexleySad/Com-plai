@@ -12,14 +12,12 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="swiper.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <script src="swiper.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="reveal.js" defer></script>
     <script src="menu.js" defer></script>
 </head>
 
@@ -76,95 +74,59 @@
     </header>
 
     <main class="principal">
-        <section id="cooperadores" class="topo-do-site">
-            <div class="interface">
-                <h1 class="titulo-principal-edit">Cooperadores</h1>
-                <div class="swiper sample-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="./img/Logo.jpeg"></div>
-                        <div class="swiper-slide"><img src="./img/Logo.jpeg"></div>
-                        <div class="swiper-slide"><img src="./img/Logo.jpeg"></div>
-                        <div class="swiper-slide"><img src="./img/Logo.jpeg"></div>
+        <section class="cooperadores">
+            <div id="cooperadores" class="interface">
+                <h1 class="titulo-edit">COOPERADORES</h1>
+                <div class="flex">
+                    <div class="cooperadores-box efeito-especialidades1">
+                        <img class="img-edit" src="./img/Logo.jpeg" alt="Imagem Personalização">
+                        <h2 class="cooperadores-subtitulo-edit">C.O.O</h2>
+                        <p class="cooperadores-txt-edit">Desenvolvemos software personalizado para atender às suas necessidades
+                            específicas.
+                        </p>
                     </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+    
+                    <div class="cooperadores-box efeito-especialidades2">
+                        <img class="img-edit" src="./img/Logo.jpeg" alt="Imagem IA">
+                        <h2 class="cooperadores-subtitulo-edit">C.E.O</h2>
+                        <p class="cooperadores-txt-edit">Oferecemos soluções de IA para automação e insights avançados.
+                        </p>
+                    </div>
+    
+                    <div class="cooperadores-box efeito-especialidades3">
+                        <img class="img-edit" src="./img/Logo.jpeg" alt="Imagem Consultoria">
+                        <h2 class="cooperadores-subtitulo-edit">C.F.O</h2>
+                        <p class="cooperadores-txt-edit">Orientamos estrategicamente o uso da tecnologia em seus negócios.</p>
+                    </div>
                 </div>
-
-                <div id="joao" class="cooperador-info">
-                    <h2 class="subtitulo-principal-edit">C.O.O - João</h2>
-                    <p class="cargo-slide">Cargo: Gerente de Operações</p>
-                    <p class="funcao-slide">Função: João é responsável por liderar e coordenar as operações da empresa,
-                        garantindo eficiência e qualidade em todos os processos.</p>
-                    <p class="visao-slide">Visão da Empresa: João acredita em uma empresa inovadora, focada na
-                        excelência operacional
-                        e comprometida com a satisfação dos clientes.</p>
+    
+                <div class="flex">
+                    <div class="cooperadores-box efeito-especialidades4">
+                        <img class="img-edit" src="./img/Logo.jpeg" alt="Imagem Desenvolvimento">
+                        <h2 class="cooperadores-subtitulo-edit">Planejamento Estrategico</h2>
+                        <p class="cooperadores-txt-edit">Criamos sites e apps atraentes e funcionais para sua presença online.</p>
+                    </div>
+    
+                    <div class="cooperadores-box efeito-especialidades5">
+                        <img class="img-edit" src="./img/Logo.jpeg" alt="Imagem Segurança">
+                        <h2 class="cooperadores-subtitulo-edit">Recursos Humanos</h2>
+                        <p class="cooperadores-txt-edit">Protegemos seus dados e sistemas contra ameaças cibernéticas.</p>
+                    </div>
+    
+                    <div class="cooperadores-box efeito-especialidades6">
+                        <img class="img-edit" src="./img/Logo.jpeg" alt="Imagem Serviços de Inteligência Artificial">
+                        <h2 class="cooperadores-subtitulo-edit">Marketing e Comercial</h2>
+                        <p class="cooperadores-txt-edit">Oferecemos uma ampla gama de serviços de inteligência artificial
+                            personalizados para atender às suas necessidades.</p>
+                    </div>
                 </div>
-
-                <div id="wesley" class="cooperador-info">
-                    <h2 class="subtitulo-principal-edit">Gerente de Desenvolvimento Tecnológico - Wesley</h2>
-                    <p class="cargo-slide">Cargo: Gerente de Desenvolvimento Tecnológico</p>
-                    <p class="funcao-slide">Função: Wesley lidera a equipe de desenvolvimento tecnológico, buscando
-                        inovações e
-                        soluções tecnológicas para impulsionar a empresa.</p>
-                    <p class="visao-slide">Visão da Empresa: Para Wesley, a empresa deve ser líder em tecnologia,
-                        promovendo
-                        sustentabilidade e impacto positivo na sociedade.</p>
-                </div>
-
-                <div id="estevan" class="cooperador-info">
-                    <h2 class="subtitulo-principal-edit">CEO - Estevan</h2>
-                    <p class="cargo-slide">Cargo: CEO</p>
-                    <p class="funcao-slide">Função: Estevan é o CEO da empresa, responsável por liderar a visão
-                        estratégica e
-                        garantir a implementação eficaz das metas da organização.</p>
-                    <p class="visao-slide">Visão da Empresa: O CEO Estevan busca tornar a empresa referência em seu
-                        setor, destacando-se
-                        pela inovação e responsabilidade social.</p>
-                </div>
-
-                <div id="ester" class="cooperador-info">
-                    <h2 class="subtitulo-principal-edit">Gerente de Planejamento Estratégico - Ester</h2>
-                    <p class="cargo-slide">Cargo: Gerente de Planejamento Estratégico</p>
-                    <p class="funcao-slide">Função: Ester lidera o planejamento estratégico da empresa, desenvolvendo
-                        estratégias
-                        para impulsionar o crescimento e a competitividade.</p>
-                    <p class="visao-slide">Visão da Empresa: Ester acredita em um planejamento estratégico sólido como
-                        base para o
-                        sucesso, promovendo a sustentabilidade e a adaptação às mudanças do mercado.</p>
-                </div>
-
-                <div id="camila" class="cooperador-info">
-                    <h2 class="subtitulo-principal-edit">C.F.O - Camila</h2>
-                    <p class="cargo-slide">Cargo: Gerente de Finanças</p>
-                    <p class="funcao-slide">Função: Camila é responsável pela gestão financeira da empresa, garantindo a
-                        saúde
-                        financeira e contribuindo para a tomada de decisões estratégicas.</p>
-                    <p class="visao-slide">Visão da Empresa: Camila busca equilibrar eficiência financeira e
-                        responsabilidade social,
-                        promovendo o crescimento sustentável da empresa.</p>
-                </div>
-
-                <div id="nicoly" class="cooperador-info">
-                    <h2 class="subtitulo-principal-edit">Gerente de Recursos Humanos - Nicoly</h2>
-                    <p class="cargo-slide">Cargo: Gerente de Recursos Humanos</p>
-                    <p class="funcao-slide">Função: Nicoly lidera a gestão de recursos humanos, focando no
-                        desenvolvimento e bem-estar
-                        dos colaboradores.</p>
-                    <p class="visao-slide">Visão da Empresa: Nicoly acredita que o capital humano é o maior ativo da
-                        empresa, buscando
-                        criar um ambiente de trabalho positivo e inclusivo.</p>
-                </div>
-
-                <div id="nathan" class="cooperador-info">
-                    <h2 class="subtitulo-principal-edit">Gerente de Marketing e Comercial - Nathan</h2>
-                    <p class="cargo-slide">Cargo: Gerente de Marketing e Comercial</p>
-                    <p class="funcao-slide">Função: Nathan lidera as estratégias de marketing e vendas, buscando
-                        expandir a presença da
-                        empresa no mercado.</p>
-                    <p class="visao-slide">Visão da Empresa: Nathan visa posicionar a empresa como líder em seu setor,
-                        destacando-se pela
-                        inovação e relacionamento com clientes.</p>
+                <div id="dv" class="flex">
+                    <div class="cooperadores-box efeito-especialidades6">
+                        <img class="img-edit" src="./img/Logo.jpeg" alt="Imagem Serviços de Inteligência Artificial">
+                        <h2 class="cooperadores-subtitulo-edit">Desenvolvimento Tecnologico</h2>
+                        <p class="cooperadores-txt-edit">Oferecemos uma ampla gama de serviços de inteligência artificial
+                            personalizados para atender às suas necessidades.</p>
+                    </div>
                 </div>
             </div>
         </section>
