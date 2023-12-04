@@ -470,7 +470,8 @@ footer .line-footer i {
 
 .cooperadores-txt-topo {
     text-align: center;
-    max-width: 600px; /* Ajuste conforme necessário */
+    max-width: 600px;
+    /* Ajuste conforme necessário */
 }
 
 .cooperadores-box {
@@ -492,21 +493,21 @@ footer .line-footer i {
     box-shadow: 0 0 8px #fff;
 }
 
-.cooperadores-img-edit{
+.cooperadores-img-edit {
     border-radius: 50%;
     height: 300px;
     position: relative;
 }
 
-.cooperadores-subtitulo-edit{
+.cooperadores-subtitulo-edit {
     font-size: 28px;
     color: #4CBD49;
     margin: 15px 0;
 }
 
-.cooperadores-txt-edit{
+.cooperadores-txt-edit {
     color: #fff;
-    margin: 20px 0; 
+    margin: 20px 0;
 }
 
 
@@ -705,35 +706,35 @@ footer .line-footer i {
         color: #fff;
     }
 
-    #chatbot-recursos-li{
+    #chatbot-recursos-li {
         margin-top: -200px;
     }
 
-    #chatbot-img-edit{
+    #chatbot-img-edit {
         height: 160px;
     }
 
-    #software-personalizado #software-flex{
+    #software-personalizado #software-flex {
         flex-direction: column;
     }
 
-    #software-topo-personalizado{
+    #software-topo-personalizado {
         margin-bottom: -250px;
     }
 
-    #software-img-edit{
+    #software-img-edit {
         margin-bottom: -400px;
     }
 
-    #software-img-edit-beneficios{
+    #software-img-edit-beneficios {
         height: 130px;
     }
 
-    #ia-e-marketing-flex{
+    #ia-e-marketing-flex {
         margin-top: -200px;
     }
 
-    #ia-e-marketing-img{
+    #ia-e-marketing-img {
         margin-bottom: -150px;
     }
 
@@ -744,9 +745,9 @@ footer .line-footer i {
 
 
     /* COOPERADORES.HTML */
-    .cooperadores-img-edit{
-    height: 250px;
-    max-width: 100%;
+    .cooperadores-img-edit {
+        height: 250px;
+        max-width: 100%;
     }
 
     /* SOBRE.HTML */
@@ -758,7 +759,7 @@ footer .line-footer i {
         position: relative;
     }
 
-    #historia-img-edit{
+    #historia-img-edit {
         margin-bottom: -200px;
     }
 }
